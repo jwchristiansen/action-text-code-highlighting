@@ -7,6 +7,7 @@
     "@rails/actiontext": "^7.1.1",
     "autoprefixer": "^10.4.16",
     "esbuild": "^0.19.5",
+    "highlight.js": "^11.9.0",
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.5",
     "trix": "^2.0.7"

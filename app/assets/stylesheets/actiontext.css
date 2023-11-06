@@ -6,6 +6,23 @@
  *= require trix
 */
 
+.trix-content pre, trix-editor pre {
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  font-family: monospace;
+  font-size: .9em;
+  padding: 1em;
+  white-space: pre;
+  background-color: #24272D;
+  overflow-x: auto;
+  border-radius: 2px;
+}
+
+trix-editor pre {
+  color: #c9cfd7;
+}
+
 /*
  * We need to override trix.css’s image gallery styles to accommodate the
  * <action-text-attachment> element we wrap around attachments. Otherwise,
