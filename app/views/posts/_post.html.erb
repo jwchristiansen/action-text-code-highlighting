@@ -4,6 +4,6 @@
   </h1>
 
   <div data-controller="highlight">
-    <%= post.content %>
+    <%= raw language_formatter(post.content) %>
   </div>
 </div>
